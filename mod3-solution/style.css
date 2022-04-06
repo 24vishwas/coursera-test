@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(234, 248, 220);
+}
+nav {
+    background-color: rgb(181, 250, 125);
+    
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+nav div {
+    background-color: rgb(248, 238, 150);
+    margin: 0%;
+}
+div {
+    background-color: rgb(181, 250, 125);
+    padding: 10px;
+    margin: 50px;
+}
+header {
+    font-size: 150%;
+    /*padding-left: 40%;*/
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+div h3 {
+    font-size: 125%;
+    /*padding-left: 40%;*/
+    text-align: center;
+}
+
+#col-1 {
+    float: left;
+   /* width: 30%;*/
+}
+#col-2 {
+    float: left;
+    /*width: 30%;*/
+}
+#col-3 {
+    float: left;
+    /*width: 30%;*/
+}
+@media screen and (min-width: 768px) 
+{
+#tog {
+    display: none;
+}
+}
